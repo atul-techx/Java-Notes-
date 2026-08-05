@@ -12,8 +12,15 @@ public class BasicLoops {
         // }
 
         // for loop
-        for (int count = 1; count != 5; count++) {
+        // for (int count = 1; count != 5; count++) {
+        //     System.out.println(count);
+        // }
+
+        // while Loop
+        int count = 1;
+        while (count != 5) {
             System.out.println(count);
+            count++;
         }
     }
 }
